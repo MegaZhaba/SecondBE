@@ -23,6 +23,6 @@ public class Main {
         System.out.println("Создаём LazyBean...");
         LazyBean lazyBean = context.getBean(LazyBean.class); // Он создастся только сейчас
 
-        context.close();
+
     }
 }
